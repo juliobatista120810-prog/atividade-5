@@ -74,7 +74,17 @@
       - .barra-progresso: de uma cor de fundo clara, altura fixa (height), border-radius
       - .progresso: cor de fundo forte, height: 100%, border-radius
       */
-      
+      .barras-progresso {
+          background-color: #e0e0e0;
+          height: 20px;
+          border-radius: 10px;
+      }
+
+      .progresso {
+          background-color: #4CAF50;
+          height: 100%;
+          border-radius: 10px;
+      }
 
       /*
    7. MODO ESCURO
