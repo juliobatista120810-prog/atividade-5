@@ -97,6 +97,9 @@
    8. FOOTER
       - Cor de fundo, texto centralizado, padding
       */
-      
+      body.modo-escuro {
+          background-color: #333;
+          color: #fff;
+      }
       /*
    Bom trabalho!
