@@ -58,7 +58,11 @@ document.querySelectorAll('.progresso').forEach(function(elemento) {
 //      "Obrigado, [nome]! Sua mensagem foi enviada."
 //    - Limpe os campos depois: campo.value = ''
 
-
-
+getElementById('form-contato').addEventListener('submit', function(evento) {
+    evento.preventDefault();
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const mensagem = document.getElementById('mensagem').value;
+});
 
 // Comece pelo exercicio 1 e va ate o 4. Boa sorte!
