@@ -41,6 +41,12 @@ let visitas = 0;
 //    - Leia o valor: elemento.getAttribute('data-valor')
 //    - Aplique a largura: elemento.style.width = valor + '%'
     
+document.querySelectorAll('.progresso').forEach(function(elemento) {
+        const valor = elemento.getAttribute('data-valor');
+        elemento.style.width = valor + '%';
+        elemento.getAtteibute('data-valor')
+        elemento.style.width = valor + '%';
+    });
 
 // 4. FORMULARIO (#form-contato)
 //    - Pegue o formulario com getElementById()
