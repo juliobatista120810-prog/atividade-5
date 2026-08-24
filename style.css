@@ -20,6 +20,11 @@
       - Centralize o texto (text-align)
       - Adicione espaco interno (padding)
       */
+      header {
+          background-color: #4CAF50;
+          text-align: center;
+          padding: 20px;
+      }
       /*
    3. SECOES (section)
       - Adicione margem entre elas (margin)
