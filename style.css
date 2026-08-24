@@ -100,6 +100,11 @@
    8. FOOTER
       - Cor de fundo, texto centralizado, padding
       */
-      
+      footer {
+          background-color: #4CAF50;
+          text-align: center;
+          padding: 10px;
+          color: white;
+      }
       /*
    Bom trabalho!
