@@ -92,14 +92,14 @@
       - Mude background-color e color para cores escuras
       - Estilize secoes e inputs tambem dentro de .modo-escuro
       */
-      
-      /*
-   8. FOOTER
-      - Cor de fundo, texto centralizado, padding
-      */
       body.modo-escuro {
           background-color: #333;
           color: #fff;
       }
+      /*
+   8. FOOTER
+      - Cor de fundo, texto centralizado, padding
+      */
+      
       /*
    Bom trabalho!
