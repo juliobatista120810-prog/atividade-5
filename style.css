@@ -32,7 +32,14 @@
       - Adicione sombra (box-shadow)
       - Defina uma largura maxima (max-width) e centralize com margin: auto
       */
-      
+      section {
+          margin: 20px auto;
+          max-width: 600px;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
       /*
    4. BOTOES (button)
       - Mude cor de fundo e cor do texto
