@@ -27,7 +27,13 @@ document.getElementById('btn-tema').addEventListener('click', function() {
 //    - No clique do botao, incremente a variavel (visitas++)
 //    - Atualize o texto do span: span.textContent = visitas
 
-
+let visitas = 0;
+        document.getElementById('btn-visita').addEventListener('click', function() {
+        visitas++;
+        document.getElementById('numero-visitas').textContent = visitas;
+        const span = document.getElementById('numero-visitas');
+        span.textContent = visitas;
+});
 
 // 3. BARRAS DE PROGRESSO (.progresso)
 //    - Pegue todos os elementos com document.querySelectorAll('.progresso')
