@@ -48,7 +48,14 @@
       - Mude o cursor (cursor: pointer)
       - Adicione efeito hover: button:hover { }
       */
-      
+      button {
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          padding: 10px 20px;
+      }
       /*
    5. FORMULARIO
       - Estilize os inputs e textarea (padding, border, border-radius)
