@@ -62,7 +62,13 @@
       - Faca os campos ocuparem toda largura (width: 100%)
       - Espaco entre os campos (margin-bottom)
       */
-      
+      formulario {
+         padding: 10px;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         width: 100%;
+         margin-bottom: 15px;
+      }
       /*
    6. BARRAS DE PROGRESSO
       - .barra-progresso: de uma cor de fundo clara, altura fixa (height), border-radius
